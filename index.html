@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>학교 평가 분석 대시보드 - Premium Edition</title>
+    <title>2025 학교평가 분석 대시보드 - 원묵고등학교</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap">
     
@@ -488,88 +488,154 @@
 
         // Default Data Template
         const getDefaultData = () => ({
-          "schoolName": "학교명을 입력하세요",
+          "schoolName": "원묵고등학교",
           "academicYear": "2025",
           "semester": "2학기",
           "kpiData": [
                     {
                               "title": "종합 만족도",
-                              "value": 0,
+                              "value": 4.31,
                               "total": 5.0,
-                              "change": 0,
-                              "changeType": "neutral",
+                              "change": -0.03,
+                              "changeType": "negative",
                               "targetSlide": 1,
                               "icon": "⭐"
                     },
                     {
                               "title": "총 참여 인원",
-                              "value": 0,
+                              "value": 696,
                               "unit": "명",
-                              "change": 0,
-                              "changeType": "neutral",
+                              "change": 67,
+                              "changeType": "positive",
                               "targetSlide": 2,
                               "icon": "👥"
                     },
                     {
                               "title": "전년 대비 변화",
-                              "value": 0,
+                              "value": -0.03,
                               "unit": "점",
-                              "change": 0,
-                              "changeType": "neutral",
+                              "change": -0.03,
+                              "changeType": "negative",
                               "targetSlide": 7,
                               "icon": "📈"
                     }
           ],
           "categoryData": [
-                    { "name": "학교자치", "2024": 0, "2025": 0 },
-                    { "name": "교육과정 편성·운영", "2024": 0, "2025": 0 },
-                    { "name": "수업·평가 혁신", "2024": 0, "2025": 0 },
-                    { "name": "책임교육", "2024": 0, "2025": 0 },
-                    { "name": "인문·과학·예체능", "2024": 0, "2025": 0 },
-                    { "name": "민주시민 교육", "2024": 0, "2025": 0 },
-                    { "name": "안전한 교육공간", "2024": 0, "2025": 0 }
+                    { "name": "학교자치", "2024": 4.18, "2025": 4.15 },
+                    { "name": "교육과정 편성·운영", "2024": 4.27, "2025": 4.23 },
+                    { "name": "수업·평가 혁신", "2024": 4.21, "2025": 4.17 },
+                    { "name": "책임교육", "2024": 4.26, "2025": 4.21 },
+                    { "name": "인문·과학·예체능", "2024": 4.25, "2025": 4.18 },
+                    { "name": "민주시민 교육", "2024": 4.22, "2025": 4.19 },
+                    { "name": "안전한 교육공간", "2024": 4.22, "2025": 4.19 }
           ],
           "respondentData": [
-                    { "name": "교원", "value": 0, "color": "#6366F1", "avg": 0 },
-                    { "name": "학생", "value": 0, "color": "#EC4899", "avg": 0 },
-                    { "name": "학부모", "value": 0, "color": "#10B981", "avg": 0 },
-                    { "name": "직원", "value": 0, "color": "#F59E0B", "avg": 0 }
+                    { "name": "교원", "value": 50, "color": "#6366F1", "avg": 4.55 },
+                    { "name": "학생", "value": 551, "color": "#EC4899", "avg": 3.96 },
+                    { "name": "학부모", "value": 84, "color": "#10B981", "avg": 4.13 },
+                    { "name": "직원", "value": 11, "color": "#F59E0B", "avg": 4.59 }
           ],
           "trendData": [
-                    { "year": "2022", "teacher": 0, "student": 0, "parent": 0, "staff": 0, "overall": 0 },
-                    { "year": "2023", "teacher": 0, "student": 0, "parent": 0, "staff": 0, "overall": 0 },
-                    { "year": "2024", "teacher": 0, "student": 0, "parent": 0, "staff": 0, "overall": 0 },
-                    { "year": "2025", "teacher": 0, "student": 0, "parent": 0, "staff": 0, "overall": 0 }
+                    { "year": "2022", "teacher": 4.7, "student": 3.66, "parent": 4.2, "staff": 4.6, "overall": 4.04 },
+                    { "year": "2023", "teacher": 4.9, "student": 4.11, "parent": 4.41, "staff": 4.64, "overall": 4.52 },
+                    { "year": "2024", "teacher": 4.64, "student": 3.97, "parent": 4.26, "staff": 4.3, "overall": 4.09 },
+                    { "year": "2025", "teacher": 4.55, "student": 3.96, "parent": 4.13, "staff": 4.59, "overall": 4.31 }
           ],
           "comparisonData": {
-                    "teacher": { "average": 0, "highest": 0, "lowest": 0 },
-                    "student": { "average": 0, "highest": 0, "lowest": 0 },
-                    "parent": { "average": 0, "highest": 0, "lowest": 0 },
-                    "staff": { "average": 0, "highest": 0, "lowest": 0 }
+                    "teacher": { "average": 4.55, "highest": 4.78, "lowest": 4.16 },
+                    "student": { "average": 3.96, "highest": 4.07, "lowest": 3.78 },
+                    "parent": { "average": 4.13, "highest": 4.26, "lowest": 4.05 },
+                    "staff": { "average": 4.59, "highest": 4.91, "lowest": 4.36 }
           },
           "topBottomItems": {
-                    "teacherTop": [],
-                    "teacherBottom": [],
-                    "studentTop": [],
-                    "studentBottom": []
+                    "teacherTop": [
+                        { "title": "독서·토론·인문소양교육 프로그램 운영", "score": 4.78, "category": "인문·과학·예체능" },
+                        { "title": "학업 성적관리 공정성", "score": 4.76, "category": "수업·평가 혁신" },
+                        { "title": "자기주도적 학습역량 강화 프로그램", "score": 4.76, "category": "책임교육" }
+                    ],
+                    "teacherBottom": [
+                        { "title": "민주적 소통과 토의·토론", "score": 4.16, "category": "학교자치" },
+                        { "title": "학교업무 재구조화", "score": 4.22, "category": "학교자치" },
+                        { "title": "체험 중심 안전 교육", "score": 4.34, "category": "안전한 교육공간" }
+                    ],
+                    "studentTop": [
+                        { "title": "독서·토론·인문소양교육 프로그램", "score": 4.07, "category": "인문·과학·예체능" },
+                        { "title": "학업 성적관리 공정성", "score": 4.04, "category": "수업·평가 혁신" },
+                        { "title": "맞춤형 교육과정 운영", "score": 4.03, "category": "교육과정 편성·운영" }
+                    ],
+                    "studentBottom": [
+                        { "title": "수련활동", "score": 3.78, "category": "인문·과학·예체능" },
+                        { "title": "체험 중심 안전 교육", "score": 3.86, "category": "안전한 교육공간" },
+                        { "title": "과정중심 수행 평가", "score": 3.87, "category": "수업·평가 혁신" }
+                    ]
           },
-          "aiInsights": [],
-          "voices": [],
-          // Response Rates separated by group
+          "aiInsights": [
+                    {
+                        "type": "achievement",
+                        "title": "🏆 독서·인문 교육 강점",
+                        "content": "독서·토론·인문소양교육이 교원(4.78점)과 학생(4.07점) 모두에서 최고 만족도를 기록했습니다."
+                    },
+                    {
+                        "type": "achievement",
+                        "title": "🏆 직원 만족도 상승",
+                        "content": "직원 만족도가 4.30점에서 4.59점으로 0.29점 상승했습니다."
+                    },
+                    {
+                        "type": "improvement",
+                        "title": "⚠️ 수련활동 개선 필요",
+                        "content": "학생 수련활동 만족도가 3.78점으로 가장 낮습니다. 학부모도 4.07점으로 낮은 편입니다."
+                    },
+                    {
+                        "type": "improvement",
+                        "title": "⚠️ 소통 문화 보완",
+                        "content": "교원의 '민주적 소통과 토의·토론' 항목이 4.16점으로 개선이 필요합니다."
+                    },
+                    {
+                        "type": "action",
+                        "title": "🎯 즉시 조치",
+                        "content": "수련활동 프로그램 개선 및 학교 내 소통 문화 강화 방안 마련이 필요합니다."
+                    }
+          ],
+          "voices": [
+                    "수학여행 가고 싶어요",
+                    "체육복 등교일 수 증가 희망",
+                    "2학년 수련활동 시행 요청",
+                    "체육관 점심시간 개방 희망",
+                    "2학기 중간시험 일정 조정 건의"
+          ],
           "responseRates": {
-              "teacher": 100,
-              "student": 100,
-              "parent": 100,
+              "teacher": 92.6,
+              "student": 68.9,
+              "parent": 10.5,
               "staff": 100
           },
-          "actionItems": [],
+          "actionItems": [
+                    {
+                        "priority": 1,
+                        "title": "수련활동 개선",
+                        "details": ["학생·학부모 의견 반영한 프로그램 재설계", "수련활동 만족도 목표 4.0점 이상"],
+                        "icon": "🎯"
+                    },
+                    {
+                        "priority": 2,
+                        "title": "소통 문화 강화",
+                        "details": ["교직원 간 민주적 토의·토론 활성화", "의견 수렴 채널 다양화"],
+                        "icon": "💬"
+                    },
+                    {
+                        "priority": 3,
+                        "title": "우수 프로그램 확대",
+                        "details": ["독서·인문 교육 프로그램 지속 강화", "성공 사례 공유 및 확산"],
+                        "icon": "📚"
+                    }
+          ],
           "roadmap": [
                     { "quarter": "1분기", "period": "3-5월", "task": "개선 계획 수립", "color": "#6366F1" },
                     { "quarter": "2분기", "period": "6-8월", "task": "실행 및 모니터링", "color": "#10B981" },
                     { "quarter": "3분기", "period": "9-11월", "task": "중간 점검 및 보완", "color": "#F59E0B" },
                     { "quarter": "4분기", "period": "12-2월", "task": "효과 측정 및 피드백", "color": "#EC4899" }
           ],
-          "goal": { "currentScore": 0, "targetScore": 4.2, "currentRank": 0, "targetRank": 0, "totalSchools": 0 }
+          "goal": { "currentScore": 4.31, "targetScore": 4.32, "currentRank": 0, "targetRank": 0, "totalSchools": 0 }
         });
 
         // LocalStorage Keys
@@ -2374,7 +2440,7 @@
 
         // Data Editor Modal (Enhanced)
         const DataEditorModal = ({ initialData, onSave, onClose }) => {
-            const [data, setData] = useState(JSON.parse(JSON.stringify(initialData)));
+            const [data, setData] = useState(JSON.parse(JSON.stringify(getDefaultData())));
             const [activeTab, setActiveTab] = useState('basic');
             const [files, setFiles] = useState({
                 teacher: null,
@@ -2530,8 +2596,8 @@
                         newData.kpiData[1].change = 0; // 전년도 데이터 없으면 0
                     }
                     
-                    // Update goal current score
-                    newData.goal.currentScore = overallAvg;
+                    // Goal score is pre-configured (4.31 -> 4.32)
+                    // newData.goal.currentScore = overallAvg;
                     
                     // Generate AI Insights
                     newData.aiInsights = generateAIInsights(teacherData, studentData, parentData, staffData);
@@ -2656,7 +2722,6 @@
             };
             
             const handleSave = () => {
-                saveToStorage(data);
                 onSave(data);
                 onClose();
             };
@@ -2696,12 +2761,7 @@
                             >
                                 기본 정보
                             </button>
-                            <button 
-                                className={`px-6 py-3 font-semibold transition-all ${activeTab === 'upload' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-500'}`}
-                                onClick={() => setActiveTab('upload')}
-                            >
-                                데이터 업로드
-                            </button>
+                            
                             <button 
                                 className={`px-6 py-3 font-semibold transition-all ${activeTab === 'settings' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-500'}`}
                                 onClick={() => setActiveTab('settings')}
@@ -2804,59 +2864,7 @@
                                 </div>
                             )}
                             
-                            {activeTab === 'upload' && (
-                                <div className="space-y-6 max-w-2xl mx-auto">
-                                    <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-2xl">
-                                        <h3 className="text-xl font-bold text-gray-900 mb-2">📁 엑셀 파일 업로드</h3>
-                                        <p className="text-sm text-gray-600 mb-4">학교평가 결과 분석 엑셀 파일을 업로드하세요. 파일명에 관계없이 각 항목에 맞는 파일을 선택해주세요.</p>
-                                        
-                                        <div className="grid grid-cols-2 gap-4 mb-6">
-                                            <FileUploadZone 
-                                                label="교원 결과 파일"
-                                                file={files.teacher}
-                                                onFileSelect={(f) => handleFileSelect('teacher', f)}
-                                            />
-                                            <FileUploadZone 
-                                                label="학생 결과 파일"
-                                                file={files.student}
-                                                onFileSelect={(f) => handleFileSelect('student', f)}
-                                            />
-                                            <FileUploadZone 
-                                                label="학부모 결과 파일"
-                                                file={files.parent}
-                                                onFileSelect={(f) => handleFileSelect('parent', f)}
-                                            />
-                                            <FileUploadZone 
-                                                label="직원 결과 파일"
-                                                file={files.staff}
-                                                onFileSelect={(f) => handleFileSelect('staff', f)}
-                                            />
-                                        </div>
-                                        
-                                        <div className="mb-6">
-                                            <FileUploadZone 
-                                                label="연도별 결과 추이 파일"
-                                                file={files.trend}
-                                                onFileSelect={(f) => handleFileSelect('trend', f)}
-                                            />
-                                        </div>
-                                        
-                                        <button 
-                                            onClick={processFiles}
-                                            disabled={isProcessing || Object.values(files).every(f => f === null)}
-                                            className="w-full py-4 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 disabled:opacity-50 text-white font-bold text-lg transition-all"
-                                        >
-                                            {isProcessing ? processStatus : '🔄 파일 분석 및 데이터 생성'}
-                                        </button>
-                                    </div>
-                                    
-                                    <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-xl">
-                                        <p className="text-sm text-yellow-800">
-                                            💡 <strong>팁:</strong> 업로드된 데이터는 브라우저에 저장됩니다. 다음에 이 앱을 열면 저장된 데이터가 자동으로 불러와집니다.
-                                        </p>
-                                    </div>
-                                </div>
-                            )}
+                            
                             
                             {activeTab === 'settings' && (
                                 <div className="space-y-6 max-w-2xl mx-auto">
@@ -2928,8 +2936,7 @@
             const [appState, setAppState] = useState('splash');
             const [isEditorOpen, setEditorOpen] = useState(false);
             const [schoolData, setSchoolData] = useState(() => {
-                const saved = loadFromStorage();
-                return saved || getDefaultData();
+                return getDefaultData();
             });
             const [presentationStartSlide, setPresentationStartSlide] = useState(0);
 
@@ -2947,7 +2954,6 @@
             
             const handleSaveData = useCallback((newData) => {
                 setSchoolData(newData);
-                saveToStorage(newData);
             }, []);
 
             const renderContent = () => {
